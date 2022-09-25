@@ -1,0 +1,54 @@
+
+
+*******************************************************************************
+Fri Mar 19 12:57:59 2021
+
+
+FIT:    data read from 'dat.dat'  u 2:1
+        format = x:z
+        x range restricted to [-48.5630 : 51.4370]
+        #datapoints = 300
+        residuals are weighted equally (unit weight)
+
+function used for fitting: y4
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Fri Mar 19 12:58:04 2021
+
+
+FIT:    data read from 'dat.dat'  u 2:1
+        format = x:z
+        x range restricted to [-48.5630 : 51.4370]
+        #datapoints = 300
+        residuals are weighted equally (unit weight)
+
+function used for fitting: y4(x)
+	y4(x)=c*(1-((x-a)/b)**2)**2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 3.6732255445e+13   0.00e+00  8.33e+05    1.000000e+00   1.000000e+00   1.000000e+00
+ 248 3.1090041447e+02  -2.33e-05  8.33e-02    4.994603e+01  -8.887876e+01   3.238786e+02
+
+After 248 iterations the fit converged.
+final sum of squares of residuals : 310.9
+rel. change during last iteration : -2.328e-10
+
+degrees of freedom    (FIT_NDF)                        : 297
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.02313
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.0468
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 49.946           +/- 0.2027       (0.4058%)
+b               = -88.8788         +/- 0.2484       (0.2795%)
+c               = 323.879          +/- 0.6795       (0.2098%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.993  1.000 
+c               0.974 -0.949  1.000 
